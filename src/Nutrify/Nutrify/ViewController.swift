@@ -13,8 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("This is an example of utilizing ViewController debug.")
     }
-
+    
+    @IBAction func exampleFunc(_ sender: Any) {
+        // Example function
+    }
 
 }
 
