@@ -20,6 +20,14 @@ class ViewController: UIViewController {
     @IBAction func exampleFunc(_ sender: Any) {
         // Example function
     }
+    
+    @IBAction func createAccount()
+    {
+        let vc = storyboard?.instantiateViewController(identifier: "createAccount") as! CreateAccountViewController
+        
+        vc.modalPresentationStyle = .fullScreen
+        present(vc,animated: true)
+    }
 
 }
 
