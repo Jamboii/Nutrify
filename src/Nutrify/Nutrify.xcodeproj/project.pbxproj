@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		74591D57242C620200855BAB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D56242C620200855BAB /* CreateAccountViewController.swift */; };
+		74591D59242D6FFC00855BAB /* SurveyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */; };
+		74591D5B242D925600855BAB /* SurveyQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */; };
+		74591D5F242DA4CB00855BAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D5E242DA4CB00855BAB /* HomeViewController.swift */; };
+		74591D61242DA4F200855BAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D60242DA4F200855BAB /* LoginViewController.swift */; };
 		74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE462404D454000F2350 /* AppDelegate.swift */; };
 		74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE482404D454000F2350 /* SceneDelegate.swift */; };
 		74E5BE4B2404D454000F2350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE4A2404D454000F2350 /* ViewController.swift */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		74591D56242C620200855BAB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyNavigationController.swift; sourceTree = "<group>"; };
+		74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionsViewController.swift; sourceTree = "<group>"; };
+		74591D5E242DA4CB00855BAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		74591D60242DA4F200855BAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		74E5BE432404D454000F2350 /* Nutrify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E5BE462404D454000F2350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E5BE482404D454000F2350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				74E5BE512404D458000F2350 /* LaunchScreen.storyboard */,
 				74E5BE542404D458000F2350 /* Info.plist */,
 				74591D56242C620200855BAB /* CreateAccountViewController.swift */,
+				74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */,
+				74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */,
+				74591D5E242DA4CB00855BAB /* HomeViewController.swift */,
+				74591D60242DA4F200855BAB /* LoginViewController.swift */,
 			);
 			path = Nutrify;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74591D61242DA4F200855BAB /* LoginViewController.swift in Sources */,
+				74591D5B242D925600855BAB /* SurveyQuestionsViewController.swift in Sources */,
 				74591D57242C620200855BAB /* CreateAccountViewController.swift in Sources */,
 				74E5BE4B2404D454000F2350 /* ViewController.swift in Sources */,
+				74591D5F242DA4CB00855BAB /* HomeViewController.swift in Sources */,
 				74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */,
 				74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */,
+				74591D59242D6FFC00855BAB /* SurveyNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

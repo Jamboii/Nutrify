@@ -17,16 +17,26 @@ class ViewController: UIViewController {
         print("This is an example of utilizing ViewController debug.")
     }
     
-    @IBAction func exampleFunc(_ sender: Any) {
-        // Example function
+    @IBAction func login(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "login") as! LoginViewController
+        
+        // vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     
     @IBAction func createAccount()
     {
-        let vc = storyboard?.instantiateViewController(identifier: "createAccount") as! CreateAccountViewController
+        navigateToSurvey()
+    }
+    
+    private func navigateToSurvey()
+    {
         
-        vc.modalPresentationStyle = .fullScreen
-        present(vc,animated: true)
+        // let vc = storyboard?.instantiateViewController(identifier: "createAccount") as! CreateAccountViewController
+        let vc = storyboard?.instantiateViewController(identifier: "survey") as! SurveyNavigationController
+        
+        // vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
 
 }

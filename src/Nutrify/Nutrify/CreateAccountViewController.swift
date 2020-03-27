@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 class CreateAccountViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var surveyModels = [Question]()
