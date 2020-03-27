@@ -6,6 +6,12 @@
 //  Copyright © 2020 Alex Benasutti. All rights reserved.
 //
 
+//
+// IGNORE
+// IGNORE
+// IGNORE
+//
+
 import UIKit
 
 class CreateAccountViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

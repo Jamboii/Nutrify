@@ -8,12 +8,13 @@
 
 import UIKit
 
+// HomeViewController: View Controller for Nutrify home screen. Central hub for all main functionality of the application
 class HomeViewController: UIViewController {
 
-    override func viewDidLoad() {
+    // viewDidLoad: Active when Home loads for the first time
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
 }

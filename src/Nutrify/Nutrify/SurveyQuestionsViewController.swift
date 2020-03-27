@@ -8,6 +8,7 @@
 
 import UIKit
 
+// SurveyQuestionsViewController: View controller for all user identification survey questionnaire questions and functionality. Will redirect to homepage after completion.
 class SurveyQuestionsViewController: UIViewController {
     
     @IBOutlet weak var genderField: UITextField!
@@ -17,9 +18,7 @@ class SurveyQuestionsViewController: UIViewController {
     @IBOutlet weak var goalWeightOverallField: UITextField!
     @IBOutlet weak var goalWeightWeeklyField: UITextField!
     @IBOutlet weak var textView: UITextView!
-    
-    var text = ""
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,7 +32,15 @@ class SurveyQuestionsViewController: UIViewController {
     @IBAction func enterAnswers(_ sender: Any)
     {
         textView.text = "Gender: \(genderField.text!)\nHeight: \(heightField.text!) in\nWeight: \(weightField.text!)\nGoal: \(goalWeightOverallField.text!)\nWeekly: \(goalWeightWeeklyField.text!)"
-        // self.text = "Hi there\n"
+        
+        navigateToHome()
+    }
+    
+    private func navigateToHome()
+    {
+        let vc = storyboard?.instantiateViewController(identifier: "home") as! HomeViewController
+        
+        present(vc, animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

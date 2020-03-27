@@ -8,15 +8,13 @@
 
 import UIKit
 
+// SurveyNavigationController: Provide backwards navigation through the user's initial identification survey when first creating an account
 class SurveyNavigationController: UINavigationController {
     
-    @IBOutlet var text: UITextField!
-
+    // viewDidLoad: active when navigation controller initially loads
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
 }
