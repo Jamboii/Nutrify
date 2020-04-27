@@ -3,15 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EFE36243A8908CD10AA847B /* Pods_Nutrify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5153D5748177936868897A7 /* Pods_Nutrify.framework */; };
 		74591D57242C620200855BAB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D56242C620200855BAB /* CreateAccountViewController.swift */; };
 		74591D59242D6FFC00855BAB /* SurveyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */; };
 		74591D5B242D925600855BAB /* SurveyQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */; };
 		74591D5F242DA4CB00855BAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D5E242DA4CB00855BAB /* HomeViewController.swift */; };
 		74591D61242DA4F200855BAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74591D60242DA4F200855BAB /* LoginViewController.swift */; };
+		74651BD22457230C003F1F9C /* NutritionixAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD12457230C003F1F9C /* NutritionixAPI.swift */; };
+		74651BD524572348003F1F9C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD424572348003F1F9C /* Config.swift */; };
+		74651BD724572368003F1F9C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD624572368003F1F9C /* Meal.swift */; };
+		74B946A42455365800BA9325 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B946A32455365800BA9325 /* GoogleService-Info.plist */; };
 		74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE462404D454000F2350 /* AppDelegate.swift */; };
 		74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE482404D454000F2350 /* SceneDelegate.swift */; };
 		74E5BE4B2404D454000F2350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE4A2404D454000F2350 /* ViewController.swift */; };
@@ -21,11 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA4092531F32DF07D0BC39A /* Pods-Nutrify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrify.release.xcconfig"; path = "Target Support Files/Pods-Nutrify/Pods-Nutrify.release.xcconfig"; sourceTree = "<group>"; };
 		74591D56242C620200855BAB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyNavigationController.swift; sourceTree = "<group>"; };
 		74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestionsViewController.swift; sourceTree = "<group>"; };
 		74591D5E242DA4CB00855BAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		74591D60242DA4F200855BAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74651BD12457230C003F1F9C /* NutritionixAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionixAPI.swift; sourceTree = "<group>"; };
+		74651BD424572348003F1F9C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		74651BD624572368003F1F9C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		74B946A32455365800BA9325 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74E5BE432404D454000F2350 /* Nutrify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E5BE462404D454000F2350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74E5BE482404D454000F2350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +44,8 @@
 		74E5BE4F2404D458000F2350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E5BE522404D458000F2350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E5BE542404D458000F2350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1689563A576B5E6AB48EF6D /* Pods-Nutrify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nutrify.debug.xcconfig"; path = "Target Support Files/Pods-Nutrify/Pods-Nutrify.debug.xcconfig"; sourceTree = "<group>"; };
+		A5153D5748177936868897A7 /* Pods_Nutrify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nutrify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +53,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFE36243A8908CD10AA847B /* Pods_Nutrify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4F6F8B349B25CA2FD32F4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5153D5748177936868897A7 /* Pods_Nutrify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74651BA22456468A003F1F9C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				74E5BE462404D454000F2350 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		74651BA32456469E003F1F9C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74E5BE4A2404D454000F2350 /* ViewController.swift */,
+				74591D60242DA4F200855BAB /* LoginViewController.swift */,
+				74591D5E242DA4CB00855BAB /* HomeViewController.swift */,
+				74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */,
+				74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */,
+				74591D56242C620200855BAB /* CreateAccountViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		74651BC4245698BD003F1F9C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				74E5BE512404D458000F2350 /* LaunchScreen.storyboard */,
+				74E5BE4C2404D454000F2350 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		74651BD0245722F3003F1F9C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				74651BD12457230C003F1F9C /* NutritionixAPI.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		74651BD32457233F003F1F9C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				74651BD424572348003F1F9C /* Config.swift */,
+				74651BD624572368003F1F9C /* Meal.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		74E5BE3A2404D454000F2350 = {
 			isa = PBXGroup;
 			children = (
 				74E5BE452404D454000F2350 /* Nutrify */,
 				74E5BE442404D454000F2350 /* Products */,
+				DED012B20013D4F36E9F3D61 /* Pods */,
+				4A4F6F8B349B25CA2FD32F4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,20 +136,26 @@
 		74E5BE452404D454000F2350 /* Nutrify */ = {
 			isa = PBXGroup;
 			children = (
-				74E5BE462404D454000F2350 /* AppDelegate.swift */,
+				74651BD32457233F003F1F9C /* Config */,
+				74651BD0245722F3003F1F9C /* Managers */,
+				74651BC4245698BD003F1F9C /* Storyboards */,
+				74651BA22456468A003F1F9C /* App Delegate */,
+				74651BA32456469E003F1F9C /* View Controllers */,
+				74B946A32455365800BA9325 /* GoogleService-Info.plist */,
 				74E5BE482404D454000F2350 /* SceneDelegate.swift */,
-				74E5BE4A2404D454000F2350 /* ViewController.swift */,
-				74E5BE4C2404D454000F2350 /* Main.storyboard */,
 				74E5BE4F2404D458000F2350 /* Assets.xcassets */,
-				74E5BE512404D458000F2350 /* LaunchScreen.storyboard */,
 				74E5BE542404D458000F2350 /* Info.plist */,
-				74591D56242C620200855BAB /* CreateAccountViewController.swift */,
-				74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */,
-				74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */,
-				74591D5E242DA4CB00855BAB /* HomeViewController.swift */,
-				74591D60242DA4F200855BAB /* LoginViewController.swift */,
 			);
 			path = Nutrify;
+			sourceTree = "<group>";
+		};
+		DED012B20013D4F36E9F3D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1689563A576B5E6AB48EF6D /* Pods-Nutrify.debug.xcconfig */,
+				6BA4092531F32DF07D0BC39A /* Pods-Nutrify.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74E5BE572404D458000F2350 /* Build configuration list for PBXNativeTarget "Nutrify" */;
 			buildPhases = (
+				311F92BA22E1B4D02786B1B2 /* [CP] Check Pods Manifest.lock */,
 				74E5BE3F2404D454000F2350 /* Sources */,
 				74E5BE402404D454000F2350 /* Frameworks */,
 				74E5BE412404D454000F2350 /* Resources */,
+				6515F9CE4E2D066BF8A94BC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +219,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E5BE532404D458000F2350 /* LaunchScreen.storyboard in Resources */,
+				74B946A42455365800BA9325 /* GoogleService-Info.plist in Resources */,
 				74E5BE502404D458000F2350 /* Assets.xcassets in Resources */,
 				74E5BE4E2404D454000F2350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		311F92BA22E1B4D02786B1B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nutrify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6515F9CE4E2D066BF8A94BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrify/Pods-Nutrify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nutrify/Pods-Nutrify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nutrify/Pods-Nutrify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74E5BE3F2404D454000F2350 /* Sources */ = {
@@ -157,10 +278,13 @@
 				74591D5B242D925600855BAB /* SurveyQuestionsViewController.swift in Sources */,
 				74591D57242C620200855BAB /* CreateAccountViewController.swift in Sources */,
 				74E5BE4B2404D454000F2350 /* ViewController.swift in Sources */,
+				74651BD724572368003F1F9C /* Meal.swift in Sources */,
 				74591D5F242DA4CB00855BAB /* HomeViewController.swift in Sources */,
+				74651BD524572348003F1F9C /* Config.swift in Sources */,
 				74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */,
 				74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */,
 				74591D59242D6FFC00855BAB /* SurveyNavigationController.swift in Sources */,
+				74651BD22457230C003F1F9C /* NutritionixAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +426,7 @@
 		};
 		74E5BE582404D458000F2350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1689563A576B5E6AB48EF6D /* Pods-Nutrify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +445,7 @@
 		};
 		74E5BE592404D458000F2350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA4092531F32DF07D0BC39A /* Pods-Nutrify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

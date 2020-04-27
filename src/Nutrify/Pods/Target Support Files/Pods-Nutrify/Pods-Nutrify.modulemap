@@ -1,0 +1,6 @@
+framework module Pods_Nutrify {
+  umbrella header "Pods-Nutrify-umbrella.h"
+
+  export *
+  module * { export * }
+}
