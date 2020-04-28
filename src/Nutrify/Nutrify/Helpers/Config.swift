@@ -1,8 +1,10 @@
 //
 //  File.swift
 //  Nutrify
+//  Description: Holds constants for Nutritionix credentials
 //
 //  Created by Alex Benasutti on 4/27/20.
+//  Last Modified: 4/27/20
 //  Copyright © 2020 Alex Benasutti. All rights reserved.
 //
 

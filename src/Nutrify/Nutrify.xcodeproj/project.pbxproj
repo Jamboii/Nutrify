@@ -16,6 +16,8 @@
 		74651BD22457230C003F1F9C /* NutritionixAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD12457230C003F1F9C /* NutritionixAPI.swift */; };
 		74651BD524572348003F1F9C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD424572348003F1F9C /* Config.swift */; };
 		74651BD724572368003F1F9C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BD624572368003F1F9C /* Meal.swift */; };
+		74651BDB2457A166003F1F9C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BDA2457A166003F1F9C /* Utilities.swift */; };
+		74651BDD2457A796003F1F9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74651BDC2457A796003F1F9C /* Constants.swift */; };
 		74B946A42455365800BA9325 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B946A32455365800BA9325 /* GoogleService-Info.plist */; };
 		74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE462404D454000F2350 /* AppDelegate.swift */; };
 		74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E5BE482404D454000F2350 /* SceneDelegate.swift */; };
@@ -35,6 +37,8 @@
 		74651BD12457230C003F1F9C /* NutritionixAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionixAPI.swift; sourceTree = "<group>"; };
 		74651BD424572348003F1F9C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		74651BD624572368003F1F9C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		74651BDA2457A166003F1F9C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		74651BDC2457A796003F1F9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		74B946A32455365800BA9325 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74E5BE432404D454000F2350 /* Nutrify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E5BE462404D454000F2350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +87,6 @@
 				74591D60242DA4F200855BAB /* LoginViewController.swift */,
 				74591D5E242DA4CB00855BAB /* HomeViewController.swift */,
 				74591D5A242D925600855BAB /* SurveyQuestionsViewController.swift */,
-				74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */,
-				74591D56242C620200855BAB /* CreateAccountViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -106,13 +108,24 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		74651BD32457233F003F1F9C /* Config */ = {
+		74651BD32457233F003F1F9C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				74651BD424572348003F1F9C /* Config.swift */,
 				74651BD624572368003F1F9C /* Meal.swift */,
+				74651BDA2457A166003F1F9C /* Utilities.swift */,
+				74651BDC2457A796003F1F9C /* Constants.swift */,
 			);
-			path = Config;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74651BDE2457D106003F1F9C /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				74591D56242C620200855BAB /* CreateAccountViewController.swift */,
+				74591D58242D6FFC00855BAB /* SurveyNavigationController.swift */,
+			);
+			path = Unused;
 			sourceTree = "<group>";
 		};
 		74E5BE3A2404D454000F2350 = {
@@ -136,7 +149,8 @@
 		74E5BE452404D454000F2350 /* Nutrify */ = {
 			isa = PBXGroup;
 			children = (
-				74651BD32457233F003F1F9C /* Config */,
+				74651BDE2457D106003F1F9C /* Unused */,
+				74651BD32457233F003F1F9C /* Helpers */,
 				74651BD0245722F3003F1F9C /* Managers */,
 				74651BC4245698BD003F1F9C /* Storyboards */,
 				74651BA22456468A003F1F9C /* App Delegate */,
@@ -280,6 +294,8 @@
 				74E5BE4B2404D454000F2350 /* ViewController.swift in Sources */,
 				74651BD724572368003F1F9C /* Meal.swift in Sources */,
 				74591D5F242DA4CB00855BAB /* HomeViewController.swift in Sources */,
+				74651BDB2457A166003F1F9C /* Utilities.swift in Sources */,
+				74651BDD2457A796003F1F9C /* Constants.swift in Sources */,
 				74651BD524572348003F1F9C /* Config.swift in Sources */,
 				74E5BE472404D454000F2350 /* AppDelegate.swift in Sources */,
 				74E5BE492404D454000F2350 /* SceneDelegate.swift in Sources */,
