@@ -8,6 +8,8 @@ The application aims to discipline, motivate, and engage users in an environment
 
 Operating System: **iOS/Mac**
 
+Development Environment: **Xcode**
+
 Xcode version: **11.3.1**
 
 Swift version:  **5.0**
@@ -23,6 +25,7 @@ Type of Device Simulated: **iPhone 11 Pro Max**
  - Navigate to the `/Nutrify/` directory
  - run `pod install`
  - To open, run `open Nutrify.xcworkspace`
+ - Open app using an emulator by clicking the play button on the top-left of the window
  
  ### Feature Roadmap
  - Add ability to update daily user weight
